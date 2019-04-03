@@ -10,7 +10,7 @@ def do_icmp(tar, pls):
 
 
 def do_scan(tar, lower, upper):
-    print("farts")
+    #print("testing")
     tar = tar # "192.168.5.155"
     p = nmap_port_scanner.Port_Scan(tar, lower, upper)
     p.scanner()
